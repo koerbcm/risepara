@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #666666;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+
+.links_footer {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.links_footer:Hover {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #069;
+	text-decoration:underline;
+}
+
+.footer {
+	font-size:11px;
+}
+
+p	{
+	font-size:12px;
+}
+
+h1  {
+	font-size:16px;
+	font-weight:bold;
+	color: #069;
+}
+
+h2  {
+	font-size:14px;
+	font-weight:bold;
+	color: #069;
+}
+
+h3  {
+	font-size:12px;
+	font-weight:bold;
+	color: #069;
+}
+
+
+
+.link_content  {
+	color: #069;
+	text-decoration:none;
+}
+
+.link_content:Hover  {
+	color: #000;
+	text-decoration:underline;
+}
+
+.text_requiredstar  {
+	font-variant: small-caps;
+	color: #F00;
+	font-weight: bold;
+}
+
+.nav_border_left {
+	border-left-style:solid; 
+	border-left-color:#FFF; 
+	border-left-width:thin;
+	border-right-style:solid; 
+	border-right-color:#FFF; 
+	border-right-width:thin;
+	overflow:visible;
+}
+
+.nav_border_right {
+	border-right-style:solid; 
+	border-right-color:#FFF; 
+	border-right-width:thin;
+	overflow:visible;
+}
